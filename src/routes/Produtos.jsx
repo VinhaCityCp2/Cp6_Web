@@ -1,15 +1,12 @@
 import { } from 'react';
 import { Link } from 'react-router-dom';
 import { GrFormEdit as EditarProduto } from 'react-icons/gr';
-import { RiDeleteBin2Fill as Excluir } from 'react-icons/ri';
-import { ListaProdutos } from '../components/ListaProdutos';
-import InserirProduto from './InserirProduto';
-
+import { RiDeleteBin2Fill as ExcluirProduto } from 'react-icons/ri';
+import {ListaProdutos} from '../components/ListaProdutos';
 
 
 
 export default function Produtos() {
-  
   
   return (
     <>
@@ -34,28 +31,24 @@ export default function Produtos() {
                   <td>{item.desc}</td>
                   <td>{item.valor}</td>
                   <td>
-                    {''}
+                    {' '}
                     
                     {/* Chamar a tela de editar com o import de cima*/}
-                    <Link to={`/editar/produtos/${item.id}`}>
+                    <Link to={`/editar/produtos${item.id}`}>
                       <EditarProduto />
-                    </Link>{''}
+                    </Link>{' '}
 
 
-                    <Link to={`/excluir/produtos/${item.id}`}>
-                      <Excluir />
-                    </Link>{''}
+                    <Link to={`/excluir/produtos${item.id}`}>
+                      <ExcluirProduto />
+                    </Link>{' '}
                   </td>
 
                 </tr>
               ))}
             </tbody>
           </table>
-        </div>
-        
-        <InserirProduto />
-        
-        
+        </div>       
       </section>
     </>
   );

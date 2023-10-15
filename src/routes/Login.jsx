@@ -1,8 +1,6 @@
 import { useRef } from "react";
-import Produtos from "./Produtos";
 import InserirProduto from "./InserirProduto";
-import Nav from "../components/Nav";
-import "./Login.css"
+import "./Login.css";
 
 
 export default function Login (){
