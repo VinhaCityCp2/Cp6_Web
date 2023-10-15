@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { GrFormEdit as EditarProduto } from 'react-icons/gr';
 import { RiDeleteBin2Fill as ExcluirProduto } from 'react-icons/ri';
 import {ListaProdutos} from '../components/ListaProdutos';
+import './Produtos.css'
 
 
 
@@ -10,7 +11,7 @@ export default function Produtos() {
   
   return (
     <>
-      <section>
+      <section className='pedidos_geral'>
         <h1>Lista de Produtos</h1>
         <div>
           <table>
@@ -33,7 +34,7 @@ export default function Produtos() {
                   <td>
                     {' '}
                     
-                    {/* Chamar a tela de editar com o import de cima*/}
+                    
                     <Link to={`/editar/produtos${item.id}`}>
                       <EditarProduto />
                     </Link>{' '}

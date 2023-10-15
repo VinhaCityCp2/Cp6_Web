@@ -43,7 +43,7 @@ export default function EditarProduto() {
   return (
     <section >
     <h1 >EDITAR PRODUTOS</h1>
-    {/*chamando a função handleSubmit dentro do form */}
+
     <form onSubmit={handleSubmit}>
       <fieldset>
         <legend>PRODUTO SELECIONADO</legend>
@@ -52,7 +52,6 @@ export default function EditarProduto() {
             type="hidden"
             name="id"
             value={produto.id}
-             /*chamando a função handleChance dentro do input*/
             onChange={handleChange}
           />
         </div>
@@ -63,7 +62,7 @@ export default function EditarProduto() {
             name="nome"
             id="idNome"
             value={produto.nome}
-               /*chamando a função handleChance dentro do input*/
+               
             onChange={handleChange}
           />
         </div>
@@ -74,7 +73,7 @@ export default function EditarProduto() {
             name="desc"
             id="idDesc"
             value={produto.desc}
-               /*chamando a função handleChance dentro do input*/
+               
             onChange={handleChange}
           />
         </div>
@@ -85,7 +84,7 @@ export default function EditarProduto() {
             name="valor"
             id="idValor"
             value={produto.valor}
-               /*chamando a função handleChance dentro do input*/
+               
             onChange={handleChange}
           />
         </div>

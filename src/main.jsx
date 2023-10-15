@@ -26,7 +26,7 @@ import EditarProduto from './routes/EditarProduto.jsx';
         {path: '/sobre', element: <Sobre /> },
         {path: '/login', element: <Login /> },
         {path: '/editar/produtos/:id', element: <EditarProduto /> },
-        {path: '/excluir', element: <ExcluirProduto /> },
+        {path: '/excluir/produtos/:id', element: <ExcluirProduto /> },
 
       ]
       
