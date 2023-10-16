@@ -1,6 +1,9 @@
 import { useRef } from "react";
 import InserirProduto from "./InserirProduto";
 import "./Login.css";
+import EditarProduto from "./EditarProduto";
+import ExcluirProduto from "./ExcluirProduto"
+
 
 
 export default function Login (){
@@ -44,7 +47,8 @@ export default function Login (){
                 
                 
                 {getUser && getSenha ? (
-                    <InserirProduto />
+                    <Pedido />
+                    
                     
                 ) : (
         
