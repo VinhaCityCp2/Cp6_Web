@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ListaProdutos } from "../components/ListaProdutos";
+import './InserirProduto.css';
 
 export default function InserirProduto (){
 
@@ -41,7 +42,7 @@ export default function InserirProduto (){
                     <fieldset>
                        
                         <p>
-                            <label htmlFor="idNome">
+                            <label htmlFor="idNome" id="nome">
                                 Nome do Produto
                             </label>
                             <input type="text" name="nome" id="idNome" 
@@ -51,7 +52,7 @@ export default function InserirProduto (){
                             />
                         </p>
                         <p>
-                            <label htmlFor="idDesc">
+                            <label htmlFor="idDesc" id="descricao">
                                 Descrição do Produto
                             </label>
 
@@ -63,7 +64,7 @@ export default function InserirProduto (){
                             />
                         </p>
                         <p>
-                            <label htmlFor="idValor">
+                            <label htmlFor="idValor" id="valores">
                                 Valor do Produto
                             </label>
 
