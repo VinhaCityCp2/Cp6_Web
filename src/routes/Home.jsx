@@ -41,7 +41,7 @@ export default function Home() {
             Bem-vindo ao nosso pedaço do Japão no coração da cidade! Na nossa loja de comida japonesa, mergulhe em uma experiência culinária autêntica que o transportará para as ruas movimentadas de Tóquio e os tranquilos templos de Kyoto.
           </p>
           <p className='texto'>
-          Nossos chefs apaixonados e experientes dominam a arte da culinária     japonesa, garantindo que cada prato seja uma explosão de sabores e uma obra de arte visual. Desde sushis frescos e sashimis impecáveis até os deliciosos ramens e tempuras crocantes, cada mordida é uma jornada sensorial.
+          Nossos chefs apaixonados e experientes dominam a arte da culinária    japonesa, garantindo que cada prato seja uma explosão de sabores e uma obra de arte visual. Desde sushis frescos e sashimis impecáveis até os deliciosos ramens e tempuras crocantes, cada mordida é uma jornada sensorial.
           </p>
           
           <div>
